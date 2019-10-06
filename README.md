@@ -15,4 +15,4 @@
 * **Financial Market:**
   * *Development of Automated Strategies for Trading Operations for B3 (Brazilian Market) and Forex*
 * **English Classes:**
-  * *English Teacher - from beginners to advanced studentes*
+  * *English Teacher - from beginners to advanced students*
