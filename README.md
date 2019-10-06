@@ -1,11 +1,11 @@
 # Duan Cleypaul
 
 ## Mechatronics Engineer
-* Tiradentes University, 2012-2017
+* **Tiradentes University, 2012-2017**
   * *8.85 GPA (0 - 10 scale)*
-* Tennessee Technological University, 2014-2015
+* **Tennessee Technological University, 2014-2015**
   * *4.0 GPA (0 - 4 scale)*
-* Florida International University, 2015
+* **Florida International University, 2015**
   * *Internship as a Researcher in Electronics and Telecom*
 
 ## Experiences
