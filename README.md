@@ -1,8 +1,8 @@
 # Duan Cleypaul
 
 ## Mechatronics Engineer
-Tiradentes University, 2017
-8.85 GPA (0 - 10 scale)
+* Tiradentes University, 2017
+* 8.85 GPA (0 - 10 scale)
 
 ## Experiences
 * **Scientific Research:**
