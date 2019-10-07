@@ -1,5 +1,5 @@
 # Duan Cleypaul
-![Self](/Downloads/self_down-1mb.jpg "Duan Cleypaul")
+![Self](Downloads/self_down-1mb.jpg "Duan Cleypaul")
 
 ## Mechatronics Engineer
 * **Tiradentes University, 2012-2017**
