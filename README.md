@@ -1,5 +1,5 @@
 # Duan Cleypaul
-![](https://scontent.fbfh2-1.fna.fbcdn.net/v/t1.0-9/28377876_1443562479086420_6274191746061539232_n.jpg?_nc_cat=100&_nc_oc=AQnYQ1U7kePaDoAM9uIUwU-92tlvv92PFuqidiXaFD3GDO0s4B4gTy2XreAnQvCJ0oc&_nc_ht=scontent.fbfh2-1.fna&oh=c348084efa17da8cde31df546e722370&oe=5E24682A)
+![](https://scontent.fbfh2-1.fna.fbcdn.net/v/t1.0-1/p160x160/72333010_2261706763938650_3107215612372320256_n.jpg?_nc_cat=103&amp;_nc_oc=AQn_0ApO2RRn0GTzLF5QwH21qu1HejQ-dT4xcvlW6OU8vF189HU4MpgTB7-3gVPzC_c&amp;_nc_ht=scontent.fbfh2-1.fna&amp;oh=4049612f444ca48d6bda5675be7c06ef&amp;oe=5E24B5EB)
 
 ## Mechatronics Engineer
 * **Tiradentes University, 2012-2017**
