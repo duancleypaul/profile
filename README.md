@@ -1,5 +1,6 @@
 # Duan Cleypaul
-[Self](Downloads/self_down-1mb.jpg "Duan Cleypaul")
+<img src="self_down-1mb.jpg" style="width: 10px;"/>
+
 
 ## Mechatronics Engineer
 * **Tiradentes University, 2012-2017**
@@ -17,3 +18,4 @@
   * *Development of Automated Strategies for Trading Operations for B3 (Brazilian Market) and Forex*
 * **English Classes:**
   * *English Teacher - from beginners to advanced students*
+
