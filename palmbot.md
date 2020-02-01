@@ -54,7 +54,7 @@ O robô utiliza o cruzamento de duas médias móveis, com posicionamento de orde
 ---
 * **Subchart M15:** gráfico secundário para visualização de validação e/ou invalidação de entradas.
 * **Painel Personalizado (parcialmente):** painel com logo personalizado e features solicitadas (botões, informações e dados em geral);
-![Painel_e_subchart](painel_e_subchart.png "Painel e Subchart M15")
+![Painel_e_subchart](D:\Documentos\Investimentos\PalmInvest\painel_e_subchart.png "Painel e Subchart M15")
 
 
 ```python
@@ -100,13 +100,13 @@ O robô utiliza o cruzamento de duas médias móveis, com posicionamento de orde
 ---
 
 ### 1. Ordens Limit e Stop
-![Ordens_stop_e_limit](ordem_stop_e_limit.png "Ordens stop e limit")
+![Ordens_stop_e_limit](D:\Documentos\Investimentos\PalmInvest\ordem_stop_e_limit.png "Ordens stop e limit")
 
 Uma ordem mal utilizada e/ou posicionada pode resultar no não reconhecimento do envio das ordens por parte do servidor, corretora ou qualquer parte envolvida no roteamento delas.
 
 Veja o caso abaixo, a título exemplificativo:
 
-![Preco_invalido](preco_invalido.png "Preço inválido")
+![Preco_invalido](D:\Documentos\Investimentos\PalmInvest\preco_invalido.png "Preço inválido")
 
 **Formas de contornar o problema:**
 
@@ -128,21 +128,21 @@ Definir qual o tipo de preenchimento das ordens é importante para afunilar o se
 
 O filtro de invalidação por fechamento no M15 é bom, mas precisa ser otimizado. A seguir, a imagem ilustra um caso bem sucedido do filtro. Primeiro, a ordem é posicionada após o cruzamento das médias:
 
-![Ordem_abriu](ordem_abriu.png "Ordem abriu")
+![Ordem_abriu](D:\Documentos\Investimentos\PalmInvest\ordem_abriu.png "Ordem abriu")
 
 Logo em seguida, ela é cancelada pelo critério de invalidação (candle no M15 fechou acima das médias):
 
-![Ordem_cancelada](ordem_cancelada.png "Ordem cancelada por invalidação de setup")
+![Ordem_cancelada](D:\Documentos\Investimentos\PalmInvest\ordem_cancelada.png "Ordem cancelada por invalidação de setup")
 
 Apesar desse filtro ter funcionado na situação acima, ele precisa ser reconsiderado. Há casos em que a ordem já é aberta com a condição de invalidação satisfeita ou muito próximo de ser satisfeita. É o caso da imagem abaixo:
 
-![abriu_e_fechou](abriu_e_fechou_M15.png "Ordem abriu e fechou")
+![abriu_e_fechou](D:\Documentos\Investimentos\PalmInvest\abriu_e_fechou_M15.png "Ordem abriu e fechou")
 
 ### 4. Casos com bons potenciais não estão sendo validados
 
 Existem casos em que a operação seria muito bem sucedida, porém é impedida pelo critério de invalidação no M15. A seguir, um trade que seria bem lucrativo deixou de ser feito por causa do fechamento do candle no M15:
 
-![invalidando_M15](problema_ordem_cancelada_candleM15close_medias.png "Invalidação por M15")
+![invalidando_M15](D:\Documentos\Investimentos\PalmInvest\problema_ordem_cancelada_candleM15close_medias.png "Invalidação por M15")
 
 Sabendo disso, o que fazer com o critério de invalidação? Continuar com ele ou adaptá-lo?
 
@@ -152,7 +152,7 @@ Sabendo disso, o que fazer com o critério de invalidação? Continuar com ele o
 
 Como uma das opções de takeprofit é com toque na média de 200, é necessário filtrar a entrada. Por exemplo, caso uma compra seja feita de forma correta, porém com a média de 200 abaixo das médias 9 e 21, a compra será realizada, porém o takeprofit será acionado logo em seguida, uma vez que o preço atual já é maior ou igual às médias de 200. Esse problema é o mesmo ilustrado em figura anterior:
 
-![abriu_e_fechou](abriu_e_fechou_M15.png "Ordem abriu e fechou")
+![abriu_e_fechou](D:\Documentos\Investimentos\PalmInvest\abriu_e_fechou_M15.png "Ordem abriu e fechou")
 
 **SOLUÇÃO PARA O PROBLEMA:**
 **NESSE CASO, SAIR SOMENTE NOS NÍVEIS DE S/R INSERIDOS PELO USUÁRIO**
