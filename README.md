@@ -11,6 +11,10 @@
   * *Internship as a Researcher in Electronics and Telecom*
 
 ## Experiences
+* **AI Residency Program:**
+ * *Currently enrolled in the AI HUB Residecy Program, by Senai-PR, Brazil*
+ * *AI application in real industry problem that includes food, financial, agribusiness, cosmetics, engineering, registry, education, health, security, and transportation industries*
+ * *Expected conclusion: September 2020*
 * **Scientific Research:**
   * *System Identification and Modern Control Techniques applied to Process Variables*
   * *LTE and Wifi signal strength modelling using quadicopters and MATLAB*
