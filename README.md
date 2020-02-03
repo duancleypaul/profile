@@ -1,6 +1,6 @@
 # Duan Cleypaul
 
-<img src="self_down-1mb.jpg" width="200">
+<img src="self_down-1mb.jpg" width="150">
 
 ## Mechatronics Engineer
 * **Tiradentes University, 2012-2017**
